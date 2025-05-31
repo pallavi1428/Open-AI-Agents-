@@ -1,11 +1,11 @@
 from openai.agents.conversable import ConversableAgent
 from typing import Dict, Any
 
-class BusinessIdeaAgent(ConversableAgent):
+class SongGeneratorAgent(ConversableAgent):
     def __init__(self):
         super().__init__(
-            name="BusinessIdeaGPT",
-            instructions="""You are a specialized AI for business idea generation.
+            name="SongGeneratorGPT",
+            instructions="""You are a specialized AI for song generator generation.
             Provide structured, actionable outputs with clear sections."""
         )
     

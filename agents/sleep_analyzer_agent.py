@@ -1,11 +1,11 @@
 from openai.agents.conversable import ConversableAgent
 from typing import Dict, Any
 
-class BusinessIdeaAgent(ConversableAgent):
+class SleepAnalyzerAgent(ConversableAgent):
     def __init__(self):
         super().__init__(
-            name="BusinessIdeaGPT",
-            instructions="""You are a specialized AI for business idea generation.
+            name="SleepAnalyzerGPT",
+            instructions="""You are a specialized AI for sleep analyzer generation.
             Provide structured, actionable outputs with clear sections."""
         )
     

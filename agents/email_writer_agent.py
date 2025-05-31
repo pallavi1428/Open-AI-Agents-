@@ -1,11 +1,11 @@
 from openai.agents.conversable import ConversableAgent
 from typing import Dict, Any
 
-class BusinessIdeaAgent(ConversableAgent):
+class EmailWriterAgent(ConversableAgent):
     def __init__(self):
         super().__init__(
-            name="BusinessIdeaGPT",
-            instructions="""You are a specialized AI for business idea generation.
+            name="EmailWriterGPT",
+            instructions="""You are a specialized AI for email writer generation.
             Provide structured, actionable outputs with clear sections."""
         )
     
